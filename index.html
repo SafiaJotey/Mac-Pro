@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Mac Pro</title>
+</head>
+<body>
+    <section class="container">
+     
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-5">
+                <img class="img-fluid"src="images/mac.png" alt="">
+            </div>
+            <div class="col-7">
+                <h1>Customize your Blue 24-inch iMac with Apple M1 chip</h1>
+                <p>apple M1 chip with 8-core CPU
+                    with 4 performance cores and 4 efficiency cores,7-core GPU,and 16-core neural Engine 8GB unified memory 256GB
+                    SSD storage Two Thunderbolt/USB 4 ports Magic Mouse Magic keyboard US english
+                    </p>
+                    <br>
+
+                    <!-- Memory -->
+
+
+                    <label for="">Memory</label>
+                    <br>
+                    <input id="memory8GB" type="button" value="8GB unified memory">
+
+                    <input id="memory16GB" type="button" value="16GB unified memory">
+
+                    <br>
+                    <br>
+                    <br>
+
+                    <!-- SSD -->
+                    <label for="">Storage</label>
+                    <br>
+                    <input id="ssd-256" type="button" value="256GB SSD Storage ">
+
+                    <input id="ssd-512" type="button" value="512 GB SSD Storage">
+                    <input id="ssd-1TB" type="button" value="1TB SSD Storage">
+
+
+                    <br>
+                    <br>
+                    <br>
+
+                    <!-- Delivery-->
+                    <label for="">Choose your delivery option</label>
+                    <br>
+                    <input id="deliveryFree" type="button" value="Friday, august 25 Free Prime delivery ">
+
+                    <input id="deliveryCost" type="button" value="Friday, august 21 delivery charge $20">
+                    <!-- Total Area-->
+
+                    <div class="d-flex block ">
+                        <h6 class="label">Best Price</h6>
+                        <h6>$ <span id="BestPrice">1299</span>
+                        </h6>
+                    </div>
+                    <hr>
+
+                    <div class="d-flex  block">
+                        <h6 class="Memory">Extra Memory Cost</h6>
+                        <h6>$ <span id="MemoryCost">0</span>
+                        </h6>
+                    </div>
+                    <hr>
+                    <div class="d-flex  block">
+                        <h6 class="Storage">Extra Storage Cost</h6>
+                        <h6>$ <span  id="StorageCost">0</span>
+                        </h6>
+                    </div>
+                    <hr>
+
+                    <div class="d-flex  block">
+                            <h6 class="Delivery">Delivery charge</h6>
+                            <h6>$ <span id="Deliverycharge">0</span>
+                            </h6>
+                    </div>
+                    <hr>
+                    <div class="d-flex  block ">
+                            <h6 class="price">Total Price</h6>
+                            <h6>$ <span id="TotalPrice">1299</span>
+                            </h6>
+                    </div>
+                    <hr>
+                        <!-- Promo Area -->
+                        <label for="">Add Promo Code</label>
+                        <br>
+                        <input id="promoCode" type="text">
+                        <input id="Apply" class="bg-danger" type="button" value="Apply">
+                
+            </div>
+        </div>
+    </section>
+    
+<!-- Final-total_area -->
+    <section class="container">
+        <hr>
+        <div class="d-flex justify-content-center ">
+
+                <h1 class="me-3">Total </h1>
+                <h1>$ <span id="final-total">1299</span>
+                </h1>
+        </div>
+    </section>
+
+    <!-- Script -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="JS/index.js"></script>
+</body>
+</html>

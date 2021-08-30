@@ -1,0 +1,58 @@
+/*font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* common Css */
+
+*{
+    margin:0;
+    padding: 0;
+}
+input{
+    border: 2px solid gray;
+    background-color: white;
+    padding: 2px;
+    border-radius: 3px;
+    margin: 10px;
+}
+input:hover{
+    background-color: gray;
+    color: white;
+    
+}
+img{
+    width: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.block{
+    height: 10px;
+}
+.label{
+    margin-right: 120px;
+}
+
+.Delivery{
+    margin-right: 80px;
+}
+
+.Storage{
+    margin-right: 57px;
+}
+.Memory{
+    margin-right: 53px;
+}
+.price{
+    margin-right: 113px;
+}
+#TotalPrice{
+    margin-left: -2px;
+}
+
+#Apply{
+    padding: 5px 10px;
+    
+}
